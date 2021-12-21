@@ -1,0 +1,17 @@
+:root {
+  --light-blue: #66e2dc;
+  --peach: #fa7453;
+  --light-orange: #ffb964;
+  --off-white: #fcfaf9;
+  --black: #191826;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  height: 300vh;
+  width: auto;
+}
