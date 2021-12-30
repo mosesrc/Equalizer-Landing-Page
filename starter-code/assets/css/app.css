@@ -14,10 +14,29 @@
 
 body {
   box-sizing: border-box;
-  height: 300vh;
-  width: auto;
   font-family: 'IBM Plex Sans', sans-serif;
   background-image: url('../images/bg-main-desktop.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 900px;
+  width: 1024px;
+  border: 1px solid black;
+}
+
+.container {
+  margin: 32px 0px;
+  height: 90%;
+  width: 80%;
+  border: 1px solid black;
+}
+
+#bgPatternOne {
+  height: 25%;
+  width: 21%;
+}
+
+#phnAppPic {
+  height: 67%;
+  width: 27%;
 }
