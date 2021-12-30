@@ -30,7 +30,7 @@ body {
   height: 90%;
   width: 77%;
   position: relative;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 /* ******************* HEADER POSITIONING ******************* */
@@ -41,7 +41,8 @@ header {
 h1 {
   height: 190px;
   width: 1016px;
-  line-height: 1;
+  line-height: 88px;
+  word-spacing: -1px;
   font-size: 88px;
   margin-bottom: 30px;
   /* border: 1px solid black; */
@@ -53,7 +54,6 @@ h1 {
   position: absolute;
   left: 87%;
   top: -8.7%;
-  border: 1px solid black;
 }
 
 #Logo {
@@ -64,6 +64,7 @@ h1 {
   height: 102;
   width: 825px;
   font-size: 20px;
+  line-height: 34px;
   margin-bottom: 300px;
 }
 
@@ -72,27 +73,123 @@ h1 {
   height: 35%;
   width: 100%;
   background-color: var(--black);
-  display: flex;
-
   position: relative;
   border-radius: 12px;
   border: 1px solid black;
+  /* overflow: hidden; */
 }
 
 #phnAppPic {
   height: 642px;
   width: 312px;
+  position: absolute;
+  top: -215px;
+  left: 93px;
+  z-index: 1;
 }
 
 #imgPatternTwo {
   height: 468px;
   width: 312px;
-  /* position: absolute; */
+  position: absolute;
+  top: -40px;
+  left: 327px;
 }
 
 .card-body {
   height: 625px;
   width: 446px;
+  padding: 30px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 560px;
+  top: 75px;
+  color: var(--off-white);
   border-radius: 12px;
   background-color: var(--peach);
+}
+
+.card-body h3 {
+  font-size: 40px;
+  font-weight: 700;
+  width: 75%;
+}
+
+.cardDesc {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  width: 75%;
+  margin-top: -30px;
+}
+
+.price {
+  height: 10%;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-self: start;
+}
+
+.price span {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.price p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* BUTTONS */
+
+button {
+  height: 61px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: none;
+}
+
+button img {
+  margin-right: 6px;
+}
+
+.btnsPos {
+  height: 24%;
+  width: 75%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  margin-top: -40px;
+}
+
+.btn-iOS {
+  color: var(--off-white);
+  background-color: var(--black);
+}
+
+.btn-droid {
+  color: var(--black);
+  background-color: var(--off-white);
+}
+
+/* ******************* FOOTER POSITIONING ******************* */
+footer {
+  height: 79px;
+  width: 100%;
+  display: flex;
+  margin-top: 246px;
+  border: 1px solid black;
 }
