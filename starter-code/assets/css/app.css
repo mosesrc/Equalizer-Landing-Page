@@ -10,38 +10,89 @@
 
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  box-sizing: border-box;
   font-family: 'IBM Plex Sans', sans-serif;
   background-image: url('../images/bg-main-desktop.png');
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  height: 900px;
-  width: 1024px;
+  align-items: center;
+  /* min-height: 100vh; */
+  height: 1832px;
+  width: 1440px;
   border: 1px solid black;
 }
 
 .container {
-  margin: 32px 0px;
+  /* margin: 32px 0px; */
   height: 90%;
-  width: 80%;
+  width: 77%;
+  position: relative;
   border: 1px solid black;
 }
 
-#bgPatternOne {
-  height: 25%;
-  width: 21%;
+/* ******************* HEADER POSITIONING ******************* */
+header {
+  margin-bottom: 100px;
 }
 
-#bgPatternTwo {
-  height: 25%;
-  width: 21%;
+h1 {
+  height: 190px;
+  width: 1016px;
+  line-height: 1;
+  font-size: 88px;
+  margin-bottom: 30px;
+  /* border: 1px solid black; */
+}
+
+#imgPatternOne {
+  height: 468px;
+  width: 312px;
+  position: absolute;
+  left: 87%;
+  top: -8.7%;
+  border: 1px solid black;
+}
+
+#Logo {
+  margin-bottom: 110px;
+}
+
+.prodDesc {
+  height: 102;
+  width: 825px;
+  font-size: 20px;
+  margin-bottom: 300px;
+}
+
+/* ******************* SECTION POSITIONING ******************* */
+.content {
+  height: 35%;
+  width: 100%;
+  background-color: var(--black);
+  display: flex;
+
+  position: relative;
+  border-radius: 12px;
+  border: 1px solid black;
 }
 
 #phnAppPic {
-  height: 67%;
-  width: 27%;
+  height: 642px;
+  width: 312px;
+}
+
+#imgPatternTwo {
+  height: 468px;
+  width: 312px;
+  /* position: absolute; */
+}
+
+.card-body {
+  height: 625px;
+  width: 446px;
+  border-radius: 12px;
+  background-color: var(--peach);
 }
